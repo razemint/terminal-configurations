@@ -22,5 +22,19 @@ My terminal configurations for UbuntuWSL
    eval "$(starship init zsh)"
    ```
 9. restart terminal
-10. 
+10. create a directory on ~ called ".config"
+    ```
+    mkdir .config
+    ```
+11. go to .config and create a file called starship.toml
+    ```
+    cd .config
+    touch starship.toml
+    ```
+12. open with vim/emacs/nano/etc. and copy all the content from the starship.toml file on this repository and paste it in the file you created
+13. it should look like this:
+    
+    ![image](https://github.com/razemint/terminal-configurations/assets/40744507/eeb27193-0140-4af1-a997-932ca95576ed)
+
+
 
