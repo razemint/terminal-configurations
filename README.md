@@ -16,4 +16,11 @@ My terminal configurations for UbuntuWSL
    ```
 5. install nerdFont from https://www.nerdfonts.com/font-downloads
 6. change font in terminal options
-7. 
+7. install starship from curl -sS https://starship.rs/install.sh | sh
+8. add the following to the shell, in this case zsh (~/.zshrc):
+   ```
+   eval "$(starship init zsh)"
+   ```
+9. restart terminal
+10. 
+
